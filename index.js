@@ -2,6 +2,6 @@
 var katzDeli = []
 
 function takeANumber(katzDeliLine, person){
-    kattzDeliLine.push(person)
+    katzDeliLine.push(person)
     return katzDeliLine.length
 }
