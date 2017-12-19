@@ -14,5 +14,6 @@ function nowServing (katzDeliLine){
     else{
         let current_person = katzDeliLine[0]
         katzDeliLine.shift()
+        return `Currently serving ${current_person}.` 
     }
 }
