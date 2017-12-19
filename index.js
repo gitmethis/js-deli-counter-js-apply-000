@@ -27,7 +27,8 @@ function currentLine(katzDeliLine){
         for(let i=0; i < katzDeliLine.length; i++){
             str += `${i+1}. ${katzDeliLine[i]}, `
         }
-        str[str.length-2] = '' // REMOVE THE LAST COMMA FROM THE LAST NAME
+        // REMOVE THE LAST COMMA FROM THE LAST NAME
+        str = str.slice(0, newstr.length-2)
         return `The line is currently: ${str}`
     }
 }
